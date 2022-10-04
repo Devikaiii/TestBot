@@ -550,6 +550,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+    elif query.data == "cvgroup":
+        url= "https://t.me/+4Gma2ZZFFRA2MWQ1"
     elif query.data == "bio":
         buttons= [[
             InlineKeyboardButton('Status 📉', callback_data='stats'),
