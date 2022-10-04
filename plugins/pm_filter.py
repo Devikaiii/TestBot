@@ -19,7 +19,7 @@ from database.filters_mdb import (
     del_all,
     find_filter,
     get_filters,
-
+    )
 BUTTONS = {}
 SPELL_CHECK = {}
 FILTER_MODE = {}
