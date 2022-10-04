@@ -63,6 +63,7 @@ async def start(client, message):
         except ChatAdminRequired:
             logger.error("Make sure Bot is admin in Forcesub channel")
             return
+        global(pre)
         btn = [
             [
                 InlineKeyboardButton(
